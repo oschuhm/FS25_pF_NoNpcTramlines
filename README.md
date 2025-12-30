@@ -26,11 +26,7 @@ Player-owned fields are **not affected**.
 
 Precision Farming stores NPC tramline configuration in runtime tables after the map is loaded.  
 This mod waits until Precision Farming is fully initialized and then clears the following runtime table:
-
 FS25_precisionFarming._G.g_precisionFarming.tramlineMap.npcFieldFruitTypes
-
-yaml
-Code kopieren
 
 Only the **contents** of the table are removed — the reference itself remains intact.  
 This ensures maximum compatibility and avoids side effects.
@@ -44,9 +40,6 @@ The operation is performed **once per map load**.
 1. Download the mod
 2. Place the mod folder or ZIP file into:
 Documents/My Games/FarmingSimulator2025/mods
-
-yaml
-Code kopieren
 3. Activate the mod in the mod selection screen
 4. Start or load a savegame with Precision Farming enabled
 
@@ -78,11 +71,7 @@ Code kopieren
 ## Debugging
 
 The mod writes a confirmation message to `log.txt` once the NPC tramline data has been cleared:
-
 ClearNpcFieldFruitTypes: npcFieldFruitTypes cleared. before=X removed=X after=0
-
-yaml
-Code kopieren
 
 If this message does not appear, Precision Farming may not have been initialized yet or the DLC may not be active.
 
