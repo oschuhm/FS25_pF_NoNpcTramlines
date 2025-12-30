@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="93">
+  <author>LS-Farmers</author>
+  <version>1.0.0.0</version>
+  <title>
+    <en>NoNpcTramlines</en>
+    <de>NoNpcTramlines</de>
+  </title>
+  <description>
+    <en>
+    <![CDATA[This mod disables tramlines on NPC-managed fields when Precision Farming is active.
+
+By default, Precision Farming also creates tramlines on NPC fields. 
+This mod removes the corresponding runtime data after the map has loaded, ensuring that no tramlines are generated on NPC fields.
+
+Features
+- Completely removes NPC tramlines
+- Affects NPC fields only
+- Player-owned fields remain unchanged
+- No XML modifications required
+- No base game overwrites or hooks
+- Multiplayer safe
+
+Technical Notes
+- Operates only on Precision Farming runtime data
+- Executes once after the map has loaded
+- Compatible with existing savegames
+
+Requirements
+- Farming Simulator 25
+- Precision Farming DLC
+
+GitHub link: https://github.com/oschuhm/FS25_pF_NoNpcTramlines
+]]></en>
+    <de>
+    <![CDATA[Dieser Mod deaktiviert Tramlines auf NPC-Feldern, wenn das Precision-Farming-System aktiv ist.
+
+Precision Farming legt standardmäßig Tramlines auch auf Feldern an, die von NPCs verwaltet werden. 
+Dieser Mod entfernt nach dem Laden der Karte gezielt die entsprechenden Laufzeitdaten, sodass keine Tramlines mehr auf NPC-Feldern erzeugt werden.
+
+Funktionen
+- Entfernt NPC-Tramlines vollständig
+- Wirkt nur auf NPC-Felder
+- Spielerfelder bleiben unverändert
+- Kein Eingriff in XML-Dateien
+- Keine Overwrites oder Hooks am Basegame
+- Multiplayer-geeignet
+
+Technische Hinweise
+- Der Mod greift ausschließlich auf Laufzeitdaten von Precision Farming zu
+- Die Anpassung erfolgt einmalig nach dem Laden der Karte
+- Kompatibel mit bestehenden Savegames
+
+Voraussetzungen
+- Farming Simulator 25
+- Precision Farming DLC
+
+GitHub link: https://github.com/oschuhm/FS25_pF_NoNpcTramlines
+]]></de>
+  </description>
+  <multiplayer supported="true"/>
+  <iconFilename>icon_NoNpcTramlines.dds</iconFilename>
+  <extraSourceFiles>
+    <sourceFile filename="noNpcTramlines.lua"/>
+  </extraSourceFiles>
+</modDesc>
