@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="93">
+<modDesc descVersion="105">
   <author>LS-Farmers</author>
   <version>1.0.0.0</version>
   <title>
-    <en>NoNpcTramlines</en>
-    <de>NoNpcTramlines</de>
+    <en>Disable Tramlines On NPC-Owned Fields</en>
+    <de>Fahrgassen Auf NPC-Eigenen Feldern Deaktivieren</de>
   </title>
   <description>
     <en>
